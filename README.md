@@ -41,6 +41,8 @@ filename candidates for fuzzing.
 The date is treated as GMT/UTC (the "GMT" in the header anchors it), so the
 epoch is correct regardless of the box's local timezone.
 
+Patterns based on [offs.es](https://offs.es/) curriculum on File Upload attack.
+
 ## Suggested use
 
 Candidates are streamed to `stdout`, so nothing lands on disk. Pipe the output
